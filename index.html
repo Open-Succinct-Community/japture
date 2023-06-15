@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Japture</title>
+    <link
+      href="./styles/index.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbit&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="./js/index.js"
+      type=""
+      defer
+    ></script>
+  </head>
+  <body>
+    <section class="heading-section">
+      <h2 class="heading">Japture</h2>
+    </section>
+    <section class="interaction-section">
+      <section class="json-input-section">
+        <textarea
+          class="json-input-textarea"
+          id="json-input-textarea"
+        ></textarea>
+        <button
+          class="json-input-button"
+          onclick="clearJson()"
+        >
+          clear
+        </button>
+        <button
+          class="json-input-button"
+          onclick="beautifyJson()"
+        >
+          beautify
+        </button>
+        <button
+          class="json-input-button"
+          onclick="convertToForm()"
+        >
+          convert to form
+        </button>
+      </section>
+      <section class="form-output-section">
+        <div
+          class="form-output"
+          id="form-output"
+        ></div>
+        <button class="json-input-button convert-to-json-btn">
+          convert to json
+        </button>
+      </section>
+    </section>
+  </body>
+</html>
