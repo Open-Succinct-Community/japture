@@ -69,7 +69,8 @@ body {
 }
 
 .convert-to-json-btn {
-  position: static;
+  position: relative;
+  margin-top: -400px;
 }
 
 .form-output {
@@ -85,4 +86,9 @@ body {
   border: none;
   border-radius: 10px;
   padding: 1%;
+}
+
+fieldset {
+  background-color: #382752;
+  max-width: 500px;
 }
